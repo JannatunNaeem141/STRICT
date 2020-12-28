@@ -1,0 +1,396 @@
+/****************************************************************************************************
+ Media query start
+*****************************************************************************************************/
+
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /******* header-section *********/
+    .navbar-light .navbar-toggler {
+        margin-left: 140px;
+    }
+    .header-section .col-md-6 {
+        width: 50%;
+    }
+    .header-section .logo img {
+        height: 30px;
+    }
+    .header-section .main-menu .navbar-light .navbar-nav .nav-item .test1 {
+        margin-right: 15px;
+    }
+    /********* banner-section ********/
+    .banner-section {
+        padding: 50px 0px 10px
+    }
+    .banner-section .banner-inner h1 {
+        font-size: 50px;
+        line-height: 45px;
+    }
+    .banner-section .banner-inner .divider {
+        width: 60%;
+        height: 2px;
+        margin: 25px auto;
+    }
+    .banner-section .banner-inner p {
+        font-size: 15px;
+        line-height: 26px;
+        margin-bottom: 14px;
+    }
+    .banner-section .banner-inner .btn-info {
+        padding: 10px 30px;
+        font-size: 13px;
+        margin: 18px 0px;
+    }
+    .banner-section .banner-inner .icon {
+        padding: 75px 0px 15px;
+        margin-top: 40px;
+    }
+    /********* simple-section ********/
+    .simple-section .simple-inner h1 {
+        font-size: 36px;
+        line-height: 52px;
+        margin-bottom: 15px;
+    }
+    /********* featured-section ********/
+    .featured-section {
+        padding: 80px 0px 30px 0px;
+    }
+    .featured-section .inner-featured {
+        padding-bottom: 30px;
+    }
+    .featured-section .inner-featured h4 {
+        font-size: 21px;
+    }
+    /********* portfolio-section ********/
+    .portfolio-section {
+        padding: 50px 0px;
+    }
+    .portfolio-section .title h1 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+    .portfolio-section .col-md-4 {
+        display: grid;
+        place-items: center;
+    }
+    .portfolio-section .inner-portfolio {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .portfolio-section .inner-portfolio .port-hover {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    .gap2 {
+        margin-top: 0px;
+    }
+    .portfolio-section .inner-portfolio .size {
+        height: 188px;
+        width: 342px;
+    }
+    /********* stay-section ********/
+    .stay-section {
+        padding: 50px 0px;
+    }
+    .stay-section .title {
+        padding: 0px 0px 20px;
+    }
+    .stay-section .main-form {
+        width: 100%;
+    }
+    .stay-section .main-form .form-group .text-area {
+        height: 130px;
+    }
+    .stay-section .main-form .col-md-6 {
+        width: 50%;
+    }
+    .form-group span {
+        font-size: 13px;
+        margin-left: 5px;
+        padding-left: 8px;
+    }
+    .form-group .test {
+        height: 14px;
+        width: 14px;
+    }
+    .stay-section .btn-primary {
+        padding: 4px 26px;
+        font-size: 15px;
+        margin-right: 12px;
+    }
+    /********* footer-section ********/
+    .footer-section {
+        padding: 15px 0px 0px 0px;
+    }
+    .footer-section .col-md-6 {
+        width: 50%;
+    }
+    .footer-section p {
+        font-size: 13px;
+        line-height: 24px;
+        margin-top: 5px;
+    }
+    .footer-section .social-icons li a {
+        width: 28px;
+        height: 28px;
+        font-size: 13px;
+    }
+}
+
+
+/* 
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /******* header-section *********/
+    .navbar-light .navbar-toggler {
+        margin-left: 170px;
+    }
+    .header-section .col-md-6 {
+        width: 50%;
+    }
+    .header-section .logo img {
+        height: 34px;
+    }
+    .header-section .main-menu .navbar-light .navbar-nav .nav-item .test1 {
+        margin-right: 15px;
+    }
+    .banner-section .banner-inner .divider {
+        width: 63%;
+    }
+    /********* banner-section ********/
+    .banner-section {
+        padding: 50px 0px 10px
+    }
+    .banner-section .banner-inner h1 {
+        font-size: 50px;
+        line-height: 30px;
+    }
+    .banner-section .banner-inner p {
+        font-size: 19px;
+        line-height: 26px;
+        margin-bottom: 19px;
+    }
+    .banner-section .banner-inner .btn-info {
+        padding: 9px 28px;
+        font-size: 14px;
+        margin: 23px 0px;
+    }
+    .banner-section .banner-inner .icon {
+        padding: 80px 0px 17px;
+        margin-top: 40px;
+    }
+    /********* simple-section ********/
+    .simple-section {
+        padding: 60px 0px 50px 0px;
+    }
+    .simple-section .simple-inner h1 {
+        font-size: 38px;
+        line-height: 30px;
+    }
+    /********* featured-section ********/
+    .featured-section {
+        padding: 70px 0px 15px 0px;
+    }
+    .featured-section .inner-featured {
+        padding-bottom: 30px;
+    }
+    /********* portfolio-section ********/
+    .portfolio-section {
+        padding: 50px 0px;
+    }
+    .portfolio-section .col-md-4 {
+        display: grid;
+        place-items: center;
+    }
+    .portfolio-section .inner-portfolio {
+        width: 71%;
+        margin-bottom: 30px;
+    }
+    .portfolio-section .inner-portfolio .port-hover {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    /********* stay-section ********/
+    .stay-section {
+        padding: 50px 0px;
+    }
+    .stay-section .title h1 {
+        font-size: 38px;
+        line-height: 30px;
+    }
+    .stay-section .title {
+        padding: 0px 0px 20px;
+    }
+    .stay-section .main-form {
+        width: 100%;
+    }
+    .stay-section .main-form .form-group .text-area {
+        height: 150px;
+    }
+    .stay-section .main-form .col-md-6 {
+        width: 50%;
+    }
+    .stay-section .btn-primary {
+        padding: 7px 35px;
+        font-size: 15px;
+        margin-right: 21px;
+    }
+    /********* footer-section ********/
+    .footer-section .col-md-6 {
+        width: 50%;
+    }
+    .footer-section p {
+        font-size: 13px;
+        line-height: 24px;
+        margin-top: 5px;
+    }
+    .footer-section .social-icons li a {
+        width: 28px;
+        height: 28px;
+        font-size: 13px;
+    }
+}
+
+
+/* 
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    /********* header-section ********/
+    .navbar-light .navbar-toggler {
+        margin-left: 270px;
+    }
+    .banner-section {
+        padding: 80px 0px 30px;
+    }
+    .banner-section .banner-inner h1 {
+        font-size: 65px;
+        line-height: 50px;
+    }
+    .banner-section .banner-inner p {
+        font-size: 19px;
+        line-height: 20px;
+    }
+    .banner-section .banner-inner .btn-info {
+        padding: 11px 31px;
+        font-size: 16px;
+        margin: 25px 0px;
+    }
+    .banner-section .banner-inner .icon {
+        padding: 90px 0px 20px;
+        margin-top: 40px;
+    }
+    /********* simple-section ********/
+    .simple-section .simple-inner h1 {
+        font-size: 40px;
+        line-height: 43px;
+    }
+    .simple-section .simple-inner {
+        display: grid;
+        place-items: center;
+    }
+    .simple-section .simple-inner p {
+        width: 80%;
+    }
+    /********* featured-section ********/
+    .featured-section .inner-featured h4 {
+        font-size: 19px;
+        line-height: 24px;
+    }
+    .featured-section .inner-featured p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    /********* portfolio-section ********/
+    .portfolio-section .title h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .portfolio-section .inner-portfolio {
+        margin-right: 45px;
+    }
+    .portfolio-section .inner-portfolio .size {
+        height: 174px;
+        width: 229px;
+    }
+    .portfolio-section .inner-portfolio .port-hover {
+        width: 109%;
+        height: 100%;
+    }
+    .gap2 {
+        margin-top: 10px;
+    }
+    /********* stay-section ********/
+    .stay-section .title h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .stay-section .main-form {
+        width: 80%;
+    }
+    .stay-section .main-form .form-group .text-area {
+        height: 150px;
+    }
+    .stay-section .main-form .col-md-6 {
+        width: 50%;
+    }
+    .stay-section .btn-primary {
+        padding: 9px 41px;
+        font-size: 16px;
+        margin-right: 21px;
+    }
+    /********* footer-section ********/
+    .footer-section .col-md-6 {
+        width: 50%;
+    }
+    .footer-section p {
+        font-size: 13px;
+        line-height: 24px;
+        margin-top: 5px;
+    }
+    .footer-section .social-icons li a {
+        width: 28px;
+        height: 28px;
+        font-size: 13px;
+    }
+}
+
+
+/*
+##Device = Laptops, Desktops
+##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1001px) and (max-width: 1280px) {
+    /********* portfolio-section ********/
+    .portfolio-section .inner-portfolio .size {
+        height: 183px;
+        width: 299px;
+    }
+    .portfolio-section .inner-portfolio .port-hover {
+        width: 103%;
+        height: 100%;
+    }
+    .stay-section .btn-primary {
+        margin-right: 21px;
+    }
+}
+
+@media (min-width: 1281px) {
+    .stay-section .btn-primary {
+        margin-right: 21px;
+    }
+}
